@@ -1,0 +1,10 @@
+[15-Dec-2017 01:33:49 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'perros_db' in /home/ubuntu/workspace/back/conec.php on line 9
+[15-Dec-2017 01:33:49 UTC] PHP Stack trace:
+[15-Dec-2017 01:33:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/back/show.php:0
+[15-Dec-2017 01:33:49 UTC] PHP   2. conecta() /home/ubuntu/workspace/back/show.php:4
+[15-Dec-2017 01:33:49 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/back/conec.php:9
+[15-Dec-2017 01:33:49 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'perros_db' in /home/ubuntu/workspace/back/conec.php on line 9
+[15-Dec-2017 01:33:49 UTC] PHP Stack trace:
+[15-Dec-2017 01:33:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/back/index.php:0
+[15-Dec-2017 01:33:49 UTC] PHP   2. conecta() /home/ubuntu/workspace/back/index.php:3
+[15-Dec-2017 01:33:49 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/back/conec.php:9

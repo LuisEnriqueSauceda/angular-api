@@ -1,0 +1,24 @@
+    <div class ="container">
+      <table class="striped">
+        <thead>
+          <tr>
+              <th>Nombre</th>
+              <th>Edad</th>
+              <th>Raza</th>
+              <th>Color</th>
+              <th colspan="2"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat = "perro in lista">
+            <td>{{perro.nombre}}</td>
+            <td>{{perro.edad}}</td>
+            <td>{{perro.raza}}</td>
+            <td>{{perro.color}}</td>
+            <td><a href="#!/ver?id={{perro.id}}">ver</a></td>
+            <td><a href="#!/editar?id={{perro.id}}">Modificar</a></td>
+          </tr>
+        </tbody>
+      </table>     
+    </div>
+ 
